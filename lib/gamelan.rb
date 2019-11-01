@@ -1,4 +1,4 @@
-# Gamelan is a good-enough soft real-time event scheduler, 
+# Gamelan is a good-enough soft real-time event scheduler,
 # written in Ruby, especially for music applications.
 #
 # Copyright (c) 2008 Jeremy Voorhis <jvoorhis@gmail.com>
@@ -9,7 +9,7 @@ def jruby?
   defined?(JRUBY_VERSION)
 end
 
-require 'rubygems'
+require "algorithms/PriorityQueue/Ruby/priority_queue"
 require 'gamelan/timer'
 require 'gamelan/queue'
 require 'gamelan/scheduler'
