@@ -9,9 +9,9 @@ def jruby?
   defined?(JRUBY_VERSION)
 end
 
-require "algorithms/PriorityQueue/Ruby/priority_queue"
-require 'gamelan/timer'
-require 'gamelan/queue'
-require 'gamelan/scheduler'
-require 'gamelan/priority'
-require 'gamelan/task'
+require_relative "algorithms/PriorityQueue/Ruby/priority_queue"
+require_relative 'gamelan/timer'
+require_relative 'gamelan/queue'
+require_relative 'gamelan/scheduler'
+require_relative 'gamelan/priority'
+require_relative 'gamelan/task'
